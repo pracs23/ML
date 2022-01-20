@@ -1,0 +1,24 @@
+sklearn.naive_bayes.GaussianNB:
+https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+
+Accuracy is defined as the number of test points that are classified correctly divided by the total number of test points.
+  clf.score(features_test, labels_test)
+  
+  posterior probabilities by normalizing.
+  
+  Reference: https://github.com/udacity/ud120-projects
+  
+  Installation:
+  We will use pip to install some packages. First get and install pip from here. Using pip, install a bunch of python packages:
+
+go to your terminal line (don’t open python, just the command prompt)
+install sklearn: pip install scikit-learn
+-- for your reference, here’s the sklearn installation instructions
+install natural language toolkit: pip install nltk
+Get the Intro to Machine Learning source code. You will need git to clone the repository: git clone https://github.com/udacity/ud120-projects.git
+
+
+Practice: https://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/
+
+SVM:
+https://scikit-learn.org/stable/modules/svm.html
