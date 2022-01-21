@@ -30,3 +30,20 @@ Supervised Machine learning algorithms:
 
 
 https://scikit-learn.org/stable/modules/classes.html
+
+More ML algorithms:
+
+* k nearest neighbors [The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.]
+(https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761))
+
+* random forest: Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It builds decision trees on different samples and takes their majority vote for classification and average in case of regression.
+(https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/)
+
+* adaboost (sometimes also called boosted decision tree): AdaBoost also called Adaptive Boosting is a technique in Machine Learning used as an Ensemble Method. The most common algorithm used with AdaBoost is decision trees with one level that means with Decision trees with only 1 split. These trees are also called Decision Stumps.
+(https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/)
+
+There are mainly 3 types of boosting algorithms:
+
+AdaBoost algorithm
+Gradient descent algorithm
+Xtreme gradient descent algorithm
