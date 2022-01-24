@@ -7,3 +7,7 @@ In the coming lessons, we’ll talk about how the best features are often motiva
 Recommended: “Enron: The Smartest Guys in the Room” is a documentary that gives an amazing overview of the story. Alternatively, there are plenty of archival newspaper stories that chronicle the rise and fall of Enron.
 
 the orange juice futures scheme was the plot of "Trading Places," and the citizenship fraud was "American Hustle." 
+
+This goes to say that, when generating or augmenting a dataset, you should be exceptionally careful if your data are coming from different sources for different classes. It can easily lead to the type of bias or mistake that we showed here. There are ways to deal with this, for example, you wouldn’t have to worry about this problem if you used only email data--in that case, discrepancies in the financial data wouldn’t matter because financial features aren’t being used. There are also more sophisticated ways of estimating how much of an effect these biases can have on your final answer; those are beyond the scope of this course.
+
+For now, the takeaway message is to be very careful about introducing features that come from different sources depending on the class! It’s a classic way to accidentally introduce biases and mistakes.
