@@ -1,3 +1,6 @@
+CLASSIFICATION:
+
+
 sklearn.naive_bayes.GaussianNB:
 https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
 
@@ -47,3 +50,12 @@ There are mainly 3 types of boosting algorithms:
 AdaBoost algorithm
 Gradient descent algorithm
 Xtreme gradient descent algorithm
+
+
+
+REGRESSION:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn-linear-model-linearregression
+sklearn.linear_model.LinearRegression
+
+
