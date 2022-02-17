@@ -1,0 +1,41 @@
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+
+https://scikit-learn.org/stable/modules/ensemble.html
+
+Generic Notes:
+there are two variables with tradeoffs Bias and Variance.
+
+High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
+High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
+Ensemble Models
+In order to find a way to optimize for both variance and bias, we have ensemble methods. Ensemble methods have become some of the most popular methods used to compete in competitions on Kaggle and used in industry across applications.
+
+There were two randomization techniques you saw to combat overfitting:
+
+Bootstrap the data - that is, sampling the data with replacement and fitting your algorithm and fitting your algorithm to the sampled data.
+Subset the features - in each split of a decision tree or with each algorithm used an ensemble only a subset of the total possible features are used.
+
+Key Term	Definition
+AdaBoost	(Ada)ptive (Boost)ing, is an ensemble ethod technique that re-assigns weights to each instance, with higher weights to incorrectly classified instances.
+Bagging	(B)ootstrap (agg)regating is an ensemble algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting, by sampling subsets of data.
+Ensembles	You can combine (or ensemble) models in a way that makes the combination of these models better at predicting than the individual models.
+Random forest	Using 2+ decision trees on randomly picked columns.
+
+
+References:
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingClassifier.html#sklearn.ensemble.BaggingClassifier
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier
+https://scikit-learn.org/stable/modules/ensemble.html
+
+https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf
+https://medium.com/kaggle-blog
+https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting
+
+
+Adaboost:
+https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf
+https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf
+http://rob.schapire.net/papers/explaining-adaboost.pdf
+
