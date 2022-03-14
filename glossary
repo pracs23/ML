@@ -1,0 +1,69 @@
+Key Term	Definition
+Classification problem	A predictive modeling problem where a predefined class label is predicted based on training for a given dataset.
+Linear boundary	A boundary line that separates data into two groups.
+Perceptron	Building block of neural networks; an encoding of an equation into a small graph.
+Step function	Function that takes a value and returns a 1 if the input is positive or 0, and returns a 0 if the input is negative.
+
+
+Entropy	The amount of freedom that a data point has to move around.
+Hyperparameter	Different aspects of a decision tree, such as depth, that can be tuned to create decision trees that generalize well to new problems.
+Information gain	Difference in entropy between the parent node and the average entropy in the children in a decision tree.
+
+Conditional probability	In probability theory, conditional probability is a measure of the probability of an event occurring given that another event has (by assumption, presumption, assertion or evidence) occurred.
+Naive assumptions	The assumpiot that assume probabilities are independent.
+Posterior probabilities	Posterior probabilities are what we inferred after we knew that R occurred
+Prior probabilities	Prior probabilities are what we knew before we knew that R occurred.
+Sensitivity	How often a test correctly gets a positive result for the condition that's being tested for (also known as the “true positive” rate).The true-positive recognition rate
+Specificity	The proportion of truly negative cases that were classified as negative. The true-negative recognition rate
+
+Support Vector machine described in a textbook (page 337)
+The chapter discusses the support vector machine (SVM) algorithm and explains and demonstrates why they are often considered one of the best “out of the box” classifiers
+The Wikipedia page related to SVMs
+Wikipedia goes into depth on how and why SVMs are one of the most robust prediction methods, being based on statistical learning frameworks or VC theory proposed by Vapnik (1982, 1995) and Chervonenkis (1974).
+The derivation of SVMs from Stanford's CS229 notes.
+Starting on page 11, Andrew Ng talks about margins and the idea of separating data with a large “gap, ” the optimal margin classifier, and kernels.
+
+Bias and Variance
+this Wikipedia article on the bias-variance tradeoff discusses the central problem in supervised learning.
+
+Ensemble methods in the scikit-learn library:
+BaggingClassifier
+Discusses how the Bagging classifier is used to fit base classifiers each on random subsets of the original dataset and then aggregate their individual predictions (either by voting or by averaging) to form a final prediction.
+RandomForestClassifier
+Discusses how the RandomForest classifier fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+AdaBoostClassifier
+Discusses how the AdaBoost classifier fits on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases.
+Another really useful guide for ensemble methods, which can also all be extended to regression problems, can be found in the documentation here.
+
+Boosting
+The original paper - A link to the original paper on boosting by Yoav Freund and Robert E. Schapire.
+An explanation about why boosting is so important - A great article on boosting by a Kaggle master, Ben Gorman.
+A useful Quora post - A number of useful explanations about boosting.
+AdaBoost
+Here is the original paper from Freund and Schapire that is a short overview paper introducing the boosting algorithm AdaBoost, and explains the underlying theory of boosting, including an explanation of why boosting often does not suffer from overfitting as well as boosting’s the relationship to support-vector machines.
+A follow-up paper from the same authors regarding several experiments with Adaboost.
+A great tutorial by Schapire explaining the many perspectives and analyses of AdaBoost that have been applied to explain or understand it as a learning method, with comparisons of both the strengths and weaknesses of the various approaches.
+
+
+
+A confusion matrix, also known as an error matrix, is an important component of classification when using machine learning. You can read this Wikipedia article on confusion matrices for examples and more information.
+Classification metrics from Stanford's CS229 notes.
+Afshine Amidi and Shervine Amidi discuss machine learning tips and tricks, including classification and regression metrics.
+Glossary
+Key Term	Definition
+Accuracy	Accuracy is the answer to the question, Out of all the patients, how many did we classify correctly?
+F1-score	Metric that conveys the balance between the precision and the recall.
+Mean Absolute Error(MAE)	Regression metric that adds the absolute values of the distances from the points to the line.
+Mean-Squared Error (MSE)	The most used metric for optimization in regression problems that adds the squares of the distances between the points and the line.
+Precision	precision will be the answer to the question, Out of all the points predicted to be positive, how many of them were actually positive?
+R2	Regression metric that represents the 'amount of variability captured by a model, or the average amount you miss across all the points and the R2 value as the amount of the variability in the points that you capture with a model. R2 score is based on comparing a model to the simplest possible model. If the R2 score is close to 1, then the model is good
+
+Key Term	Definition
+Bias	The bias is known as the difference between the prediction of the values by the ML model and the correct value. High bias reslts in a large error in training as well as testing data.
+Grid search	A table with results of all probabilities and the best result is used.
+K-fold cross validation	A parameter called 'k' that represents the number of groups that a given data sample is to be split into. Then the results for all subsets are averaged.
+Learning curves	A tool used in machine learning that learns from a training dataset incrementally, and the plot shows changes in learning performance over time.
+Overfitting	When a model uses a lines which is too complex, as if memorizing the training set, and won't generalize well. Over-complication of the problem
+Underfitting	When a model uses a line, which is too simplistic. It doesn't do very well on the training set. Oversimplification of the problem
+Variance	iA type of error due to a model's sensitivity to small fluctuations in the training set. High variance would cause an algorithm to model the noise in the training set. This is known as overfitting
+
