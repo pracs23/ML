@@ -15,8 +15,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: testing script call
-        run: ${{ github.workspace }}/actions.py & 
-        shell: bash
+        uses: actions/checkout@v2
+        run: python ./actions.py
         id: run_demo
       - run: echo "🍏 output is ${{join(steps.run_demo.outputs.*, '\n')}}."  
       - run: echo "🍏 This job's status is ${{ job.status }}."
