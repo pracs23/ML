@@ -67,3 +67,7 @@ Overfitting	When a model uses a lines which is too complex, as if memorizing the
 Underfitting	When a model uses a line, which is too simplistic. It doesn't do very well on the training set. Oversimplification of the problem
 Variance	iA type of error due to a model's sensitivity to small fluctuations in the training set. High variance would cause an algorithm to model the noise in the training set. This is known as overfitting
 
+
+
+Back propagation:
+https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b#.vt3ax2kg9
